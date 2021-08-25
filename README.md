@@ -1,27 +1,78 @@
-# Password-Generator
+# Password Generator
 
-# Purpose
+## Description
 
-The purpose of this assignment was to create a password generator. Through prompts, the user can give what the criteria was for the password. Criteria included the length of the password and if it included lowercase letters, uppercase letters, numbers, and special characters.
+### Purpose
+The app generates a password based on prompts given to the user. These prompts include the length of the password and if the password should include lowercase or uppercase letters, numbers, or special characters.
 
-# What I Learned
+### Technologies Used
+- HTML5
+- CSS3
+- JavaScript
 
-## Javascript
+### Future Developments
+- Retrieve criteria from checkbox checklist instead of prompts
+- User is able to generate a different password based on the previous criteria
 
-Javascript can be very difficult and that I need to work on understanding the purpose of each code and how it can be utilised. I had a lot of trouble understanding the code given to me, and I was not sure what code to add to give the webpage the necessary function. Along with that, I allowed myself to procrastinate and be lazy. Those two combining factors contributed to the type of job I did on this assignment. In future homeworks and projects, I have to work on staying on top of things, understanding the purpose of the code, and asking for help at the right times.
+## Demonstration
 
-# Description
+### Step-by-Step Process
+1. Click the red **Generate Password**
+2. A prompt will appear asking for the length. Enter a number between 8 and 128 (i.e. **45**)
+3. The next prompt will ask if the password should have lowercase letters. Enter either ``Yes`` or ``No``.
+4. Repeat step 3 for the following three prompts: **uppercase letters, numbers, special characters**.
+5. After answering the last prompt, the password will appear above the **Generate Password** button.
 
-## Prompts
+### Example 1
 
-The webpage is a simple layout of a header, container, subheader, textbox, and button. Once the user clicks on the button, a series of prompts will appear on the top asking the questions for each criteria. The questions come in this order: length of password, uppercase letters, lowercase letters, numbers, and symbols.
+```
+Length = 8
+Lowercase Letters = Yes
+Uppercase Letters = Yes
+Numbers = Yes
+Special Characters = Yes
+```
+### Example 2
+```
+Length = 100
+Lowercase Letters = No
+Uppercase Letters = No
+Numbers = Yes
+Special Characters = Yes
+```
 
-# Links
+## Links
 
-## Webpage URL
+### Webpage URL
 
-https://bryan-thaoxaochay.github.io/HW-3-Password-Generator/
+bryan-thaoxaochay.github.io/Password-Generator/
 
-## Github Repo
+### Github Repo
 
-https://github.com/Bryan-Thaoxaochay/HW-3-Password-Generator
+github.com/Bryan-Thaoxaochay/Password-Generator
+
+## License
+The MIT License
+
+Copyright (c) 2021 Bryan Thaoxaochay
+
+Permission is hereby granted, free of charge, 
+to any person obtaining a copy of this software and 
+associated documentation files (the "Software"), to 
+deal in the Software without restriction, including 
+without limitation the rights to use, copy, modify, 
+merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom 
+the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice 
+shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
