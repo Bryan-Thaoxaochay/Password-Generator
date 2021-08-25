@@ -1,4 +1,6 @@
 # Password Generator
+[Password Generator](https://bryan-thaoxaochay.github.io/Password-Generator/) and 
+[Github Repo](https://github.com/Bryan-Thaoxaochay/Password-Generator)
 
 ## Description
 
@@ -40,16 +42,6 @@ Uppercase Letters = No
 Numbers = Yes
 Special Characters = Yes
 ```
-
-## Links
-
-### Webpage URL
-
-bryan-thaoxaochay.github.io/Password-Generator/
-
-### Github Repo
-
-github.com/Bryan-Thaoxaochay/Password-Generator
 
 ## License
 The MIT License
