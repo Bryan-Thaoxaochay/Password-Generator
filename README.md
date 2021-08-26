@@ -1,6 +1,4 @@
-# Password Generator
-[Password Generator](https://bryan-thaoxaochay.github.io/Password-Generator/) and 
-[Github Repo](https://github.com/Bryan-Thaoxaochay/Password-Generator)
+# [Password Generator](https://bryan-thaoxaochay.github.io/Password-Generator/)
 
 ## Description
 
@@ -16,7 +14,7 @@ The app generates a password based on prompts given to the user. These prompts i
 - Retrieve criteria from checkbox checklist instead of prompts
 - User is able to generate a different password based on the previous criteria
 
-## Demonstration
+## Demonstrations
 
 ### Step-by-Step Process
 1. Click the red **Generate Password**
@@ -26,7 +24,7 @@ The app generates a password based on prompts given to the user. These prompts i
 5. After answering the last prompt, the password will appear above the **Generate Password** button.
 
 ### Example 1
-
+![Short Password](screenshots/demo-short-password.gif)
 ```
 Length = 8
 Lowercase Letters = Yes
@@ -35,6 +33,7 @@ Numbers = Yes
 Special Characters = Yes
 ```
 ### Example 2
+![Long Password](screenshots/demo-long-password.gif)
 ```
 Length = 100
 Lowercase Letters = No
